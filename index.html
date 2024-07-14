@@ -11,7 +11,14 @@
 <body>
     <div class="card">
         <img src="books.png" class="img-book" />
-        
+        <div class="quantity-btn-container">
+            <img src="minus.png" class="btn-quantity" onclick="handleQuantitychange('dec')" />
+
+            <span class="quantity" id="quantity">1</span>
+
+            <img src="plus.png" class="btn-quantity" onclick="handleQuantitychange('inc')" />
+        </div>
+        <button class="btn">Buy Now</button>
     </div>
 
 </body>
