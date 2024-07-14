@@ -20,7 +20,22 @@
         </div>
         <button class="btn">Buy Now</button>
     </div>
+    <script>
+        function handleQuantitychange(action) {
+            const quantityElement = document.getElementById("quantity")
+            let quantity = parseInt(quantityElement.innerText);
+            if (quantity == 1 && action == 'dec') {
+                alert('Quantity cannot be less than 1')
+                return
+            }
+            else if (quantity == 5 && action == 'inc') {
+                alert('Quantity cannot be more than 5')
+                return
+            }
+            quantityElement.innerText = action == 'inc' ? ++quantity : --quantity
+        }
 
+    </script>
 </body>
 
 </html>
