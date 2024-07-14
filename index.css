@@ -9,3 +9,25 @@
     display: block;
     margin: 20px auto;
 }
+.quantity-btn-container{
+    display: flex;
+    justify-content:space-around;
+    align-items:center;
+}
+.btn-quantity{
+    height: 40px;
+    margin-top: 10px;
+}
+.btn{
+    display: block;
+    margin: 30px auto;
+    font-size: 22px;
+    padding: 5px 20px;
+    border-radius: 10px;
+    border: 1px solid rgb(166, 170, 168);
+    cursor: pointer;
+    background-color: rgb(202, 209, 247);
+}
+.quantity{
+    font-size:27px;
+}
