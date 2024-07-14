@@ -1,3 +1,11 @@
-body{
-    margin: 0;
+.card{
+    width: 330px;
+    border: 1px solid rgb(199, 191, 191);
+    margin: 60px auto;
+    border-radius: 20px;
+}
+.img-book{
+    height: 240px;
+    display: block;
+    margin: 20px auto;
 }
